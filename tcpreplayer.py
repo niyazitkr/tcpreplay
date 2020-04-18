@@ -78,7 +78,7 @@ listBox = tk.Listbox(m,selectmode=SINGLE)
 listBox.activate(0)
 listBox.pack()
 interfaceListReturn = insertInterfaces()
-m.filename =  filedialog.askopenfilename(initialdir = "/home/niyazi/Desktop/a1d_sample_pcap/",title = "Select file",filetypes = (("pcap files","*.pcap"),("all files","*.*")))
+m.filename =  filedialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("pcap files","*.pcap"),("all files","*.*")))
 
 
 
